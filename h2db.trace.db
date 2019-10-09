@@ -1,0 +1,31 @@
+10-08 22:42:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (login,password) values ('tes1','tst') [42102-187]
+10-08 22:42:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where login='tes1' [42102-187]
+10-08 22:43:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (login,password) values ('tes1','tst') [42102-187]
+10-08 22:44:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (login,password) values ('tes1','tst') [42102-187]
+10-09 00:03:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+10-09 00:03:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+10-09 00:05:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+10-09 00:07:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+10-09 00:08:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
